@@ -16,7 +16,7 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = () => {
+const numberOfBooksRead = (e) => {
   // write your code here
 	if(e.readingStatus==true)
 		return true;
